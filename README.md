@@ -9,7 +9,7 @@ Tool for hackerrank submissions which creates a PDF with submitted solutions<br>
 
 ---
 
-
+---
 ## Prerequisites
 Before you start, make sure you have the following installed on your computer:
 * **Python 3**: If you don't have it, download it from [python.org](https://www.python.org/).
@@ -79,6 +79,16 @@ pip install -r requirements.txt
 
     **Your credentials are safe.** The script only uses them to log in to HackerRank and does not store or send them anywhere. You can review the code to verify this.
 
+
+---
+## Expected Output
+Once the script finishes, you will find the following files in your project folder:
+
+* **`merged_output.pdf`**: A single, consolidated PDF file containing screenshots of all your submission pages.
+
+* **`scripts.py`** *(Optional)*: A Python script containing all your scraped code solutions. Each solution is preceded by a comment with the problem's title, making it easy to search. This file is generated if you selected the `.py script` or `both` option.
+
+* **`scripts.ipynb`** *(Optional)*: A Jupyter Notebook for a more organized view of your solutions. Each problem is placed in its own section, with the title in a Markdown cell followed by the code in a code cell. This file is generated if you selected the `.ipynb notebook` or `both` option.
 
 ---
 ## Important Usage Notes
